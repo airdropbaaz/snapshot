@@ -3,9 +3,9 @@ const synpressPlugins = require('@synthetixio/synpress/plugins');
 
 module.exports = defineConfig({
   userAgent: 'synpress',
-  viewportHeight: 900,
+  viewportHeight: 800,
   viewportWidth: 1280,
-  screenshotOnRunFailure: false,
+  screenshotOnRunFailure: true,
   video: false,
   chromeWebSecurity: true,
   defaultCommandTimeout: 30000,
